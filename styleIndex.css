@@ -1,0 +1,9 @@
+body{
+	background: linear-gradient(to right, limegreen  , deepskyblue);
+}
+.logo {
+	height: 15px;
+}
+.validation {
+	text-decoration: none;
+}
