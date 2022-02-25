@@ -10,9 +10,13 @@
 	<link rel="stylesheet" type="text/css" href="styleAboutme.css">
 </head>
 <body>
-	<h1>About Arda Agcal</h1>
-	<p><a href="index.html">Home</a></p>
-	<p>My name is Arda Agcal. I am a <em>software engineer</em>.</p>
+	<header>
+		<h1>About Arda Agcal</h1>
+	</header>
+	<nav>
+		<div><a href="index.html">Home</a></div>
+	</nav>
+	<p id="selam">My name is Arda Agcal. I am a <span id="se">software engineer</span>.</p>
 	<hr>
 	<h2>My Classes</h2>
 	<ul>
@@ -22,9 +26,16 @@
 	</ul>
 	<h2>My Favorite Movies</h2>
 	<ol>
-		<li>Pirates of the Caribbean: The Curse of the Black Pearl (<a href="https://www.imdb.com/title/tt0325980/?ref_=vp_back">IMDB</a>)</li>
-		<li>The Matrix (<a href="https://www.imdb.com/title/tt0133093/?ref_=fn_al_tt_1">IMDB</a>)</li>
-		<li>The Lord of the Rings: The Return of the King (<a href="https://www.imdb.com/title/tt0167260/?ref_=nv_sr_srsg_6">IMDB</a>)</li>
+		<li>Pirates of the Caribbean: The Curse of the Black Pearl (<a href="https://www.imdb.com/title/tt0325980/?ref_=vp_back" target="_blank">IMDB </a>)
+			<dl>
+			  <dt>Director</dt>
+			  <dd>Gore Verbinski (<a href="https://www.imdb.com/name/nm0893659/?ref_=tt_ov_dr" target="_blank">more</a>)</dd>
+			  <dt>Genre</dt>
+			  <dd>Action, Advanture, Fantasy</dd>
+			</dl>
+		</li>
+		<li>The Matrix (<a href="https://www.imdb.com/title/tt0133093/?ref_=fn_al_tt_1" target="_blank">IMDB</a>)</li>
+		<li>The Lord of the Rings: The Return of the King (<a href="https://www.imdb.com/title/tt0167260/?ref_=nv_sr_srsg_6" target="_blank">IMDB</a>)</li>
 	</ol>
 	<h2>My Moods</h2>
 	<span id = "happy">Happy: </span>
@@ -38,7 +49,7 @@
 	</ul>
 	<footer>
 		<a class= "validation" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Farda009.github.io%2FMIU-CS472%2F"> 
-			<img class = "logo" src="./images/HTML.png" alt="html validator"/>
+			<img class = "logo" src="./images/html.png" alt="html validator"/>
 		</a> 
 		<a class= "validation" href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Farda009.github.io%2FMIU-CS472%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"> 
 			<img class = "logo" src="./images/css.png" alt="html validator"/>

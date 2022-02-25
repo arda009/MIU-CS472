@@ -1,6 +1,5 @@
 body {
 	background: linear-gradient(to left, blueviolet  , deepskyblue);
-	font-family: 'Roboto Serif', sans-serif;
 }
 h1{
 	font-size: 5em;
@@ -9,22 +8,35 @@ h1{
 h2{
 	font-size: 2em;
 	font-family: 'Roboto Serif', sans-serif;
+	color: #09015E;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 }
 
 p {
-  font-size: 1.5em;
+	font-family: Arial, 'Roboto Serif', sans-serif;
+  font-size: 1.2em;
 }
+p:first-letter {
+	font-size: 3em;
+}
+#se {
+	font-weight: bold;
+}
+
 #happy, #sad {
 	font-size: 1.8em;
 }
 li{
 	font-size: 1.2em;
+	font-family: Arial, Times, sans-serif;
 }
 img {
 	height: 300px;
-}
-em {
-	font-weight: bold;
 }
 .logo {
 	height: 15px;
@@ -35,3 +47,15 @@ em {
 li a {
 	color: #70021E;
 }
+ol { 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+li {
+    flex: 0 0 auto;
+}
+dt {
+	color: #874D00;
+}
+
