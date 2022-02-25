@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+h1, h2{
+    background-color: rgb(233, 233, 233);
+    color: rgb(146, 146, 4);
+}
+div{
+    background-color: rgb(240, 240, 160);
+    font-style: italic;
+}
+a{
+    color: rgb(146, 146, 4);
+}
+footer{
+    text-align: right;
+}
+.logo {
+	height: 28px;
+}
+.validation {
+	text-decoration: none;
+}
+.bold{
+    font-weight: bold;
+}
+.underline{
+    text-decoration: underline;
+}
+#overline{
+    text-decoration: line-through;
+}
+#que{
+    margin-bottom: 0%;
+}
+#ans{
+    margin-top: 0%;
+}
