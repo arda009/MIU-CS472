@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+.navbar {
+    overflow: hidden;
+    background-color: hsl(212, 97%, 62%);
+    opacity: 80%;
+    font-family: Arial;
+    padding: 8px;
+  }
+  /* Links inside the navbar */
+  .navbar a, span {
+    float: left;
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar a {border-left: 1px solid white;}
+  #hello{
+      color: white;
+      margin-top: 9px;
+      margin-right: 15px;
+      display: flex;
+  }
+  #signoutbutton{
+      display: flex;
+      margin-right: 1%;
+
+  }
